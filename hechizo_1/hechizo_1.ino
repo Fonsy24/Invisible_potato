@@ -15,9 +15,6 @@ void setup() {
   pinMode(HALLPin1, INPUT);
   pinMode(HALLPin2, INPUT);
   pinMode(BOBINAPin, OUTPUT);
-  digitalWrite(BOBINAPin, HIGH);
-  delay(500);
-  digitalWrite(BOBINAPin, LOW);
 }
 
 void loop() {
